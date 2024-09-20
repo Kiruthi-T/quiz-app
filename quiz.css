@@ -1,0 +1,98 @@
+h1{
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px pink;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to right,skyblue,rgb(126, 126, 255),rgb(252, 105, 252));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: grid;
+    justify-content: center;
+}
+.colorcontainer{
+    background-color:transparent;
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:inset 10px -10px 10px pink;
+    
+}
+.ans{
+    background-color:rgb(245, 217, 222);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width:600px;
+    border-radius: 5px;
+    border: 1px solid pink;
+}
+h2{
+    text-align: left;
+    margin: 10px;
+}
+#btn{
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    cursor: pointer;
+    /* box-shadow: inset 10px 10px 10px white; */
+}
+#stbtn{
+    width: 100px;
+    margin: 10px;
+    margin-left: 130px;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    cursor: pointer;
+}
+span{
+    margin: 10px;
+    text-align: center;
+}
+
+.timer {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0;
+}
+
+.btndiv{
+    display: flex;
+    justify-content: end;
+}
+.allans{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    cursor: pointer;
+}
+@media screen and (max-width:480px){
+    .ans{
+        width: 90%;
+    }    
+    .colorcontainer{
+        margin: 10px;
+    }
+}
